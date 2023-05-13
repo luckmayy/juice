@@ -12,7 +12,7 @@ const commonRoutes = [
 ]
 
 const commonRouter = new VueRouter({
-    commonRoutes
+    routes:commonRoutes
 })
 
 commonRouter.beforeEach((to,from,next)=>{
